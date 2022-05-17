@@ -1,0 +1,72 @@
+.image-slider {
+    position: relative;
+}
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img {
+    max-width: 100%;
+}
+
+/* Стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+    color: #fff;
+    font-size: 80px;
+}
+
+/* Пагинация */
+.image-slider .swiper-pagination {
+    bottom: 0;
+}
+
+/* Буллеты */
+.image-slider .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Фракция */
+.image-slider .swiper-pagination-fraction {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1%;
+}
+
+.image-slider .swiper-pagination-progressbar-fill {
+    background-color: #7a956b;
+}
+
+/* Скролл */
+.swiper-scrollbar {
+width: 40px;
+}
+
+.image-slider .swiper-scrollbar-drag {
+    width: 16px;
+    height: 4px;
+    cursor: pointer;
+    background-color: #7a956b;
+}
+
+/* Автоширина */
+ /* .image-slider .swiper-slide {
+     width: auto;
+ } */
+
+ /* Мультирядность */
+ /* Высота swiper-slide: половина высоты слайдера  учетом отступов */
+ 
+/* .image-slider {
+    height: 700px;
+}
+.image-slider .swiper-slide {
+    height: calc((100% - 30px) / 2); 
+    overflow: hidden;
+}  */
