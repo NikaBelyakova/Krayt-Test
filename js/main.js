@@ -23,10 +23,10 @@ const introducingSwiper = new Swiper('.introducing-slider', {
         el: '.swiper-pagination',
     },
 
-    autoplay: {
-        delay: 3000,
-        disabledOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 3000,
+    //     disabledOnInteraction: false,
+    // },
 
     effect: 'fade',
     fadeEffect: {
@@ -66,7 +66,7 @@ const spacesSwiper = new Swiper('.space-cards-slider', {
             spaceBetween: 10
         },
         768: {
-            slidesPerView: 3
+            slidesPerView: 1
         }
     }
 });
@@ -92,7 +92,11 @@ const gallerySwiper = new Swiper('.gallery', {
             spaceBetween: 10
         },
         640: {
-            slidesPerView: 3.2,
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        1000 : {
+            slidesPerView: 3,
             spaceBetween: 30
         }
     }
@@ -119,4 +123,15 @@ const reviewsSwiper = new Swiper('.reviews-slider', {
         draggable: false,
         dragSize: 40,
     },
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        }
+    }
 });
