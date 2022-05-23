@@ -1342,6 +1342,10 @@ section {
         padding: 15px;
     }
 
+    .gallery {
+        margin-top: -243px;
+    }
+
     .gallery .swiper-slide-active img {
         height: 400px;
     }
@@ -1423,18 +1427,6 @@ section {
     .question-list {
         grid-template-columns: 1fr;
         gap: 50px;
-    }
-
-    .question-item {
-        // margin-right: 30px;
-
-        // &::after {
-        //     width: 48px;
-        //     height: 48px;
-        //     top: calc(50% - 24px);
-        //     left: calc(100% - 24px);
-        //     transform: rotate(270deg);
-        // }
     }
 
     .news-main {
